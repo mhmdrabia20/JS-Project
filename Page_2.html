@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="JS\Style.css">
+
+</head>
+
+<body style="background-image: url(./page\ 2.jpg);">
+
+  <div class="welcomeuser"
+    style="background-image: url(./background\ html1.jpg); background-repeat: no-repeat; background-size: 100%;">
+    <br>
+    <script>
+      var username = location.search //to get user's name
+      var key = username.split('&') //to devide name and key
+      var str = key[0].split('=') //to devide after =
+      var name = str[1] //to get the name to put in welcome page
+      document.write("Welcome " + name + " to our Website")
+    </script>
+    <br><br>
+  </div> <br> <br> <br><br><br><br><br>
+
+  <h1 class="h2">Choose a Random Quote From Our Selections</h1> <br> <br>
+
+
+  
+  <div class="CenterButtons">
+    <div class="All-button" style="background-image: url(./line.jpg);">
+      <button class="button" onclick="getItemInspiring(randomInspiring)">Inspiring</button>
+    </div> <br>
+    <div class="All-button" style="background-image: url(./line.jpg);">
+      <button class="button" onclick="getItemHappiness(randomHappiness)">Happiness</button>
+    </div> <br>
+    <div class="All-button" style="background-image: url(./line.jpg);">
+      <button class="button" onclick="getItemMorning(randomMorning)">Morning</button>
+    </div> <br>
+    <div class="All-button" style="background-image: url(./line.jpg);">
+      <button class="button" onclick="getItemLove(randomLove)">Love</button>
+    </div> <br>
+    <div class="All-button" style="background-image: url(./line.jpg);">
+      <button class="button" onclick="getItemWisdom(randomWisdom)">Wisdom</button>
+    </div> <br>
+    <div class="All-button" style="background-image: url(./line.jpg);">
+      <button class="button" onclick="getgame()">Play with Us</button>
+    </div>
+  </div>
+
+  <br> <br> <br>
+
+
+  <div>
+    <h2 class="h1"> OR </h2>
+
+    <div class="div-container" style="background-image: url(./div.jpg);">
+
+      <h1 class="h1"> Enter your Favourite Number to get Your Today's Quote </h1> <br>
+
+      <div>
+        <input class="Square-input-box" name="input2" type="text" id="p" placeholder="Type a number from 1 to 25"> <br>
+        <br> <br>
+        <button class="Square-Go-button" onclick="getItemid(input.value)"> Go </button>
+      </div>
+    </div>
+
+
+  </div>
+
+
+  <br><br>
+  <hr class="hr"> <br><br>
+
+  <div class="createQuotes"> Create Quotes with your Name using our application, Discover and get inspired </div>
+  <br><br>
+
+
+
+  <div style="text-align: center;">
+    <div> <textarea class="textarea2" id="quoteInput" name="quote" cols="50" rows="10"
+        placeholder="Enter your quote"></textarea> </div>
+    <br>
+    <input class="textarea3" id="authorInput" type="text" name="Author" placeholder="Enter the Author Name">
+    <button class="textarea4" onclick="AddToList()">Add to List</button>
+    <ul id="quoteList"></ul>
+
+
+  </div>
+
+  <div id="UsersQuotes"></div>
+
+  <br> <br>
+  <hr class="hr"> <br><br>
+
+  <button class="AboutUs" onclick="Creators()">About Us</button>
+
+</body>
+
+<script src="/JS/main.js"></script>
+<script src="/JS/display.js"></script>
+
+</html>

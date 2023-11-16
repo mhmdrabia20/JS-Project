@@ -1,0 +1,162 @@
+{
+    "Inspiring": [
+        {
+            "id": 1,
+            "author": "Pablo Picasso",
+            "content": "Every child is an artist; the problem is staying an artist when you grow up",
+            "image": "Images/01_inspiring/1.jpg"
+        },
+        {
+            "id": 2,
+            "author": "Scott Adams",
+            "content": "Creativity is allowing yourself to make mistakes. Art is knowing which ones to keep",
+            "image": "Images/01_inspiring/2.jpeg"
+        },
+        {
+            "id": 3,
+            "author": "Invajy",
+            "content": "Luck is what happens when preparation meets opportunity",
+            "image": "Images/01_inspiring/3.jpeg"
+        },
+        {
+            "id": 4,
+            "author": "Albert Einstein",
+            "content": "Failure is success in progress",
+            "image": "Images/01_inspiring/4.jpg"
+        },
+        {
+            "id": 5,
+            "author": "Thomas Jefferson",
+            "content": "I find that the harder I work, the more luck I seem to have",
+            "image": "Images/01_inspiring/5.jpg"
+        }
+    ],
+    "Happiness": [
+        {
+            "id": 6,
+            "author": "Audrey Hepburn",
+            "content": "The most important thing is to enjoy your life - to be happy. It's all that matters",
+            "image": "Images/02_Happiness/6.jpg"
+        },
+        {
+            "id": 7,
+            "author": "Ralph Waldo Emerson",
+            "content": "Nothing can bring you happiness but yourself",
+            "image": "Images/02_Happiness/7.png"
+        },
+        {
+            "id": 8,
+            "author": "Mark Twain",
+            "content": "Never regret anything that made you smile",
+            "image": "Images/02_Happiness/8.png"
+        },
+        {
+            "id": 9,
+            "author": "Drew Barrymore",
+            "content": "Happiness is the best makeup",
+            "image": "Images/02_Happiness/9.jpg"
+        },
+        {
+            "id": 10,
+            "author": "Leo Tolstoy",
+            "content": "If you want to be happy, be",
+            "image": "Images/02_Happiness/10.jpeg"
+        }
+    ],
+    "Morning": [
+        {
+            "id": 11,
+            "author": "Glen Cook",
+            "content": "Morning is wonderful. Its only drawback is that it comes at such an inconvenient time of day",
+            "image": "Images/03_Morning/11.jpg"
+        },
+        {
+            "id": 12,
+            "author": "James Lileks",
+            "content": "I love the early hours of the day. It's a nice place to visit but I wouldn't want to live there",
+            "image": "Images/03_Morning/12.jpeg"
+        },
+        {
+            "id": 13,
+            "author": "Punit Ghadge",
+            "content": "Keep the dream alive: Hit the snooze button",
+            "image": "Images/03_Morning/13.jpg"
+        },
+        {
+            "id": 14,
+            "author": "Marlo Thomas",
+            "content": "Never face facts; if you do you'll never get up in the morning",
+            "image": "Images/03_Morning/14.jpg"
+        },
+        {
+            "id": 15,
+            "author": "Marty Rubin",
+            "content": "Morning will come, it has no choice",
+            "image": "Images/03_Morning/15.jpg"
+        }
+    ],
+    "Love": [
+        {
+            "id": 16,
+            "author": "William Shakespeare",
+            "content": "Love all, trust a few, do wrong to none",
+            "image": "Images/04_Love/16.jpg"
+        },
+        {
+            "id": 17,
+            "author": "Richard Bach",
+            "content": "True love stories never have endings",
+            "image": "Images/04_Love/17.jpeg"
+        },
+        {
+            "id": 18,
+            "author": "Saint Ignatius",
+            "content": "Love is shown more in deeds than in words",
+            "image": "Images/04_Love/18.jpg"
+        },
+        {
+            "id": 19,
+            "author": "Franklin P. Jones",
+            "content": "Love is what makes the ride worthwhile",
+            "image": "Images/04_Love/19.jpeg"
+        },
+        {
+            "id": 20,
+            "author": "Nikki Giovanni",
+            "content": "We love because it's the only true adventure",
+            "image": "Images/04_Love/20.jpg"
+        }
+    ],
+    "Wisdom": [
+        {
+            "id": 21,
+            "author": "Nelson Mandela",
+            "content": "Speaking to someone in their language goes to their heart",
+            "image": "Images/05_wisdom/21.jpeg"
+        },
+        {
+            "id": 22,
+            "author": "Lewis Carroll",
+            "content": "If you don't know where you are going, any road will get you there",
+            "image": "Images/05_wisdom/22.jpg"
+        },
+        {
+            "id": 23,
+            "author": "Lao Tzu",
+            "content": "The journey of a thousand miles begins with one step",
+            "image": "Images/05_wisdom/23.jpg"
+        },
+        {
+            "id": 24,
+            "author": "Socrates",
+            "content": "The only true wisdom is in knowing you know nothing",
+            "image": "Images/05_wisdom/24.jpg"
+        },
+        {
+            "id": 25,
+            "author": "Aristotle",
+            "content": "Knowing yourself is the beginning of all wisdom",
+            "image": "Images/05_wisdom/25.jpg"
+        }
+    ]
+}

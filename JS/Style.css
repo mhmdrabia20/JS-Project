@@ -1,0 +1,349 @@
+.h0 {
+    font-size: 100px;
+    font-family: 'Comic Sans MS', 'cursive';
+    color: #3a2240;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.welcomeuser {
+    font-size: 68px;
+    font-family: 'Comic Sans MS', 'cursive';
+    color: #3a2240;
+    text-align: center;
+}
+
+
+.h1 {
+    font-size: 36px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.h2 {
+    font-size: 48px;
+    font-family: 'Arial', sans-serif;
+    color: #3a2240;
+    color: #000000;
+    text-align: center;
+    margin-top: 20px;
+    background: linear-gradient(45deg, #3a2240, #68adab);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.createQuotes {
+    font-size: 38px;
+    font-family: 'Arial', sans-serif;
+    color: #3a2240;
+    color: #000000;
+    text-align: center;
+    margin-top: 20px;
+    background: linear-gradient(45deg, #3a2240, #68adab);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.Go-button {
+    width: 65%;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3a2240;
+    color: #fff;
+    font-size: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.Square-Go-button {
+    width: 15%;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3a2240;
+    color: #fff;
+    font-size: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.input-box {
+    width: 50%;
+    padding: 10px 20px;
+    font-size: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Square-input-box {
+    width: 30%;
+    height: 30%;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sign-in-text {
+    font-size: 45px;
+    font-family: 'Arial', cursive;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.EnterYourName {
+    font-size: 16px;
+    font-family: 'Arial', cursive;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.form-container {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 60px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    background-color: #ffffff27;
+    text-align: center;
+}
+
+.div-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 70px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    background-color: #daccee;
+    text-align: center;
+}
+
+.All-button {
+    padding: 1px 1px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    max-width: 1500px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.CenterButtons {
+    display: flex;
+    flex-direction: column;
+    /* Stack the divs vertically */
+    justify-content: center;
+    /* Center vertically within the container */
+    align-items: center;
+    /* Center horizontally within the container */
+    height: 100vh;
+    /* Set the container's height to 100% of the viewport height */
+}
+
+
+.button {
+    display: inline-block;
+    padding: 20px 20px;
+    background-color: #3a2240;
+    color: #fff;
+    font-size: 22px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    margin: 20px;
+    width: 1000px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.hr {
+    border: none;
+    border-top: 5px solid #3a2240;
+    width: 88%;
+}
+
+.textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.textarea2 {
+    width: 47%;
+    height: 150px;
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid color(srgb red green blue);
+    border-radius: 5px;
+    text-align: center;
+    background-color: #f0f0f063;
+
+}
+
+.textarea3 {
+    width: 36%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid color(srgb red green blue);
+    border-radius: 5px;
+    text-align: center;
+    background-color: #f0f0f063;
+
+}
+
+.textarea4 {
+    width: 11%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid color(srgb red green blue);
+    border-radius: 5px;
+    text-align: center;
+    background-color: #3a2240;
+    color: #ffffff;
+    font-size: 15px;
+
+
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+
+}
+
+/* template img */
+.content img {
+    width: 600px;
+    height: 800px;
+    object-fit: contain;
+}
+
+.imageQuotes {
+    width: 650px;
+    height: 650px;
+    object-fit: contain;
+    margin-right: 80px;
+}
+
+/* content */
+.con {
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    position: relative;
+    top: -370px;
+    left: 90px;
+    background-color: none;
+    font-size: 30px;
+    font-family: 'Comic Sans MS', 'cursive';
+    color: #3a2240;
+}
+
+/* authorname */
+.AuthorName {
+    text-align: justify center;
+    color: #3a2240;
+    font-size: 40px;
+
+}
+
+.AboutUs {
+    display: inline-block;
+    padding: 20px 20px;
+    background-color: #3a2240;
+    color: #fff;
+    font-size: 22px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    margin: 20px;
+    width: 97%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.AboutUsTitle {
+    padding: 20px 20px;
+    background-color: #3a2240;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Comic Sans MS', 'cursive';
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    margin: 20px;
+    width: 95%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ournNames {
+    border: none;
+    width: 320px;
+    height: 50px;
+    text-align: center;
+    font-size: 27px;
+    margin-left: 10%;
+    /* margin-right: 80%; */
+    font-family: 'Arial', sans-serif;
+    color: #3a2240;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+
+
+.HomeButton {
+    background-color: #3a22405b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5%;
+    margin-top: -.7%;
+    margin-left: 41%;
+}
